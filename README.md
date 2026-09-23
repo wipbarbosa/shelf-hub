@@ -122,5 +122,3 @@ Este projeto foi desenvolvido como parte da Semana 01 do Coffee & Code. Ele est�
 Se você quiser colaborar, fique à vontade para abrir uma issue ou enviar uma proposta de melhoria.
 
 ---
-
-Desenvolvido para o Coffee & Code.
