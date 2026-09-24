@@ -33,11 +33,11 @@ O objetivo do Shelf Hub é oferecer uma biblioteca pessoal centralizada para que
 - pesquisar, filtrar e ordenar a biblioteca;
 - consultar estatísticas básicas sobre seus hábitos de consumo.
 
-## Funcionalidades previstas
+## Funcionalidades
 
 ### MVP
 
-O MVP do projeto contempla as seguintes funcionalidades:
+O MVP do projeto contempla:
 
 - cadastro de obras;
 - edição de obras;
@@ -51,9 +51,20 @@ O MVP do projeto contempla as seguintes funcionalidades:
 - favoritos;
 - notas e avaliações;
 - comentários;
-- links externos.
+- links externos;
+- estatísticas básicas.
 
-### Status suportados
+### Regras principais
+
+- Uma obra pode estar como **Planejado**, **Em andamento**, **Consumido** ou **Abandonado**.
+- Obras planejadas ou em andamento podem ser cadastradas sem avaliação.
+- Notas e comentários ficam disponíveis somente após a obra ser marcada como **Consumido**.
+- O usuário pode ter no máximo **20 favoritos**.
+- A exclusão de uma obra exige confirmação.
+- Links externos são adicionados manualmente no MVP.
+- Integrações automáticas com serviços externos fazem parte de uma evolução futura.
+
+## Status suportados
 
 Cada obra pode ter um dos seguintes status:
 
@@ -62,7 +73,7 @@ Cada obra pode ter um dos seguintes status:
 - Consumido
 - Abandonado
 
-### Tipos de conteúdo
+## Tipos de conteúdo
 
 O sistema considera diferentes tipos de conteúdo cultural, incluindo:
 
@@ -86,39 +97,19 @@ O sistema considera diferentes tipos de conteúdo cultural, incluindo:
 
 O produto é pensado para pessoas que consomem diferentes tipos de conteúdo cultural e desejam manter um controle mais organizado da sua rotina de entretenimento, estudo e descoberta.
 
+## Protótipo
+
+O projeto possui um protótipo navegável desenvolvido no Figma:
+
+[Visualizar protótipo navegável no Figma](https://www.figma.com/proto/qzzGhfapnxVoYsicLXboxt/Shelf-Hub?node-id=5-788&p=f&t=A6Dyj4L6kNFV6My3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A7)
+
 ## Estrutura do repositório
 
 ```text
 .
 ├── README.md
-├── docs/
-│   ├── requisitos.md
-│   └── historias-de-usuario.md
-```
-
-## Documentação
-
-Este repositório contém a base de planejamento do projeto, incluindo:
-
-- [docs/requisitos.md](docs/requisitos.md): visão geral, problema, público-alvo, escopo do MVP e requisitos funcionais.
-- [docs/historias-de-usuario.md](docs/historias-de-usuario.md): histórias do usuário com foco em experiência e regras de negócio.
-
-## Status do projeto
-
-O projeto está em fase de definição e planejamento inicial, com foco no MVP e na experiência do usuário.
-
-## Próximos passos
-
-- definir a arquitetura da aplicação;
-- validar as regras de negócio e fluxos do MVP;
-- implementar a interface e a lógica de cadastro e gestão de obras;
-- adicionar pesquisa, filtros e visualização de estatísticas;
-- testar e refinar a experiência de uso.
-
-## Contribuição
-
-Este projeto foi desenvolvido como parte da Semana 01 do Coffee & Code. Ele está aberto a melhorias, sugestões e evoluções em qualquer etapa do processo.
-
-Se você quiser colaborar, fique à vontade para abrir uma issue ou enviar uma proposta de melhoria.
-
----
+└── docs/
+    ├── requisitos.md
+    ├── historias-de-usuario.md
+    ├── design-system.md
+    └── arquitetura.md
