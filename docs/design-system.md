@@ -1,12 +1,12 @@
-\# Design System — Shelf Hub
+# Design System — Shelf Hub
 
 
 
-\## 1. Visão Geral
+## 1. Visão Geral
 
 
 
-O Design System do \*\*Shelf Hub\*\* define as diretrizes visuais e de interação que serão utilizadas na construção da interface da plataforma.
+O Design System do **Shelf Hub** define as diretrizes visuais e de interação que serão utilizadas na construção da interface da plataforma.
 
 
 
@@ -14,7 +14,7 @@ O objetivo é garantir uma experiência consistente, simples e agradável para o
 
 
 
-A identidade visual segue uma abordagem \*\*minimalista + moderna/tech\*\*, mantendo a interface limpa para que as capas das obras sejam um dos principais elementos visuais.
+A identidade visual segue uma abordagem **minimalista + moderna/tech**, mantendo a interface limpa para que as capas das obras sejam um dos principais elementos visuais.
 
 
 
@@ -22,15 +22,15 @@ Os detalhes visuais poderão ser refinados durante a implementação do front-en
 
 
 
-\---
+---
 
 
 
-\# 2. Direção Visual
+# 2. Direção Visual
 
 
 
-\## 2.1 Estilo
+## 2.1 Estilo
 
 
 
@@ -38,21 +38,21 @@ O Shelf Hub utilizará uma combinação de:
 
 
 
-\* Minimalismo;
+* Minimalismo;
 
-\* Design moderno;
+* Design moderno;
 
-\* Elementos sutis de tecnologia;
+* Elementos sutis de tecnologia;
 
-\* Espaçamento generoso;
+* Espaçamento generoso;
 
-\* Hierarquia visual clara;
+* Hierarquia visual clara;
 
-\* Tipografia legível;
+* Tipografia legível;
 
-\* Uso controlado de cores;
+* Uso controlado de cores;
 
-\* Interface limpa e organizada.
+* Interface limpa e organizada.
 
 
 
@@ -60,23 +60,23 @@ A interface deve evitar excesso de elementos visuais para que as informações d
 
 
 
-\---
+---
 
 
 
-\# 3. Paleta de Cores
+# 3. Paleta de Cores
 
 
 
-\## 3.1 Cores principais
+## 3.1 Cores principais
 
 
 
-\### Primária
+### Primária
 
 
 
-\*\*Indigo — `#4F46E5`\*\*
+**Indigo — `#4F46E5`**
 
 
 
@@ -84,23 +84,23 @@ Utilizada principalmente em:
 
 
 
-\* Botões principais;
+* Botões principais;
 
-\* Links;
+* Links;
 
-\* Elementos selecionados;
+* Elementos selecionados;
 
-\* Estados de foco;
+* Estados de foco;
 
-\* Ações importantes.
-
-
-
-\### Primária escura
+* Ações importantes.
 
 
 
-\*\*Indigo escuro — `#3730A3`\*\*
+### Primária escura
+
+
+
+**Indigo escuro — `#3730A3`**
 
 
 
@@ -108,19 +108,19 @@ Utilizada para:
 
 
 
-\* Estados de hover;
+* Estados de hover;
 
-\* Destaques;
+* Destaques;
 
-\* Elementos que precisam de maior contraste.
-
-
-
-\### Cor de destaque
+* Elementos que precisam de maior contraste.
 
 
 
-\*\*Âmbar — `#F59E0B`\*\*
+### Cor de destaque
+
+
+
+**Âmbar — `#F59E0B`**
 
 
 
@@ -128,21 +128,21 @@ Utilizada principalmente para:
 
 
 
-\* Favoritos;
+* Favoritos;
 
-\* Avaliações;
+* Avaliações;
 
-\* Destaques;
+* Destaques;
 
-\* Elementos que precisam chamar atenção sem representar erro.
-
-
-
-\---
+* Elementos que precisam chamar atenção sem representar erro.
 
 
 
-\## 3.2 Cores neutras
+---
+
+
+
+## 3.2 Cores neutras
 
 
 
@@ -166,11 +166,11 @@ Os tons neutros devem ocupar a maior parte da interface, mantendo o visual leve 
 
 
 
-\---
+---
 
 
 
-\# 4. Cores de Status
+# 4. Cores de Status
 
 
 
@@ -192,17 +192,17 @@ Os status das obras possuem cores próprias para facilitar sua identificação.
 
 
 
-\### Significado
+### Significado
 
 
 
-\* \*\*Planejado:\*\* conteúdo que o usuário pretende consumir.
+* **Planejado:** conteúdo que o usuário pretende consumir.
 
-\* \*\*Em andamento:\*\* conteúdo que está sendo consumido atualmente.
+* **Em andamento:** conteúdo que está sendo consumido atualmente.
 
-\* \*\*Consumido:\*\* conteúdo que foi concluído.
+* **Consumido:** conteúdo que foi concluído.
 
-\* \*\*Abandonado:\*\* conteúdo que o usuário decidiu interromper.
+* **Abandonado:** conteúdo que o usuário decidiu interromper.
 
 
 
@@ -210,19 +210,19 @@ A cor não deve ser utilizada como único indicador do status. O nome do status 
 
 
 
-\---
+---
 
 
 
-\# 5. Tipografia
+# 5. Tipografia
 
 
 
-\## 5.1 Fonte principal
+## 5.1 Fonte principal
 
 
 
-A fonte principal escolhida para o Shelf Hub é a \*\*Inter\*\*.
+A fonte principal escolhida para o Shelf Hub é a **Inter**.
 
 
 
@@ -230,63 +230,63 @@ Ela será utilizada tanto em títulos quanto em textos da interface, garantindo 
 
 
 
-\### Aplicações
+### Aplicações
 
 
 
-\*\*Títulos\*\*
+**Títulos**
 
 
 
-\* Inter;
+* Inter;
 
-\* Peso maior;
+* Peso maior;
 
-\* Destaque visual.
-
-
-
-\*\*Textos\*\*
+* Destaque visual.
 
 
 
-\* Inter;
-
-\* Peso regular;
-
-\* Alta legibilidade.
+**Textos**
 
 
 
-\*\*Metadados\*\*
+* Inter;
+
+* Peso regular;
+
+* Alta legibilidade.
 
 
 
-\* Inter;
-
-\* Tamanho menor;
-
-\* Cor secundária.
+**Metadados**
 
 
 
-\## 5.2 Código e informações técnicas
+* Inter;
+
+* Tamanho menor;
+
+* Cor secundária.
 
 
 
-Quando houver necessidade de apresentar código ou informações técnicas, poderá ser utilizada uma fonte monoespaçada como \*\*Fira Code\*\*.
+## 5.2 Código e informações técnicas
 
 
 
-\---
+Quando houver necessidade de apresentar código ou informações técnicas, poderá ser utilizada uma fonte monoespaçada como **Fira Code**.
 
 
 
-\# 6. Componentes
+---
 
 
 
-\## 6.1 Botões
+# 6. Componentes
+
+
+
+## 6.1 Botões
 
 
 
@@ -294,7 +294,7 @@ O sistema terá quatro tipos principais de botão.
 
 
 
-\### Primário
+### Primário
 
 
 
@@ -306,11 +306,11 @@ Exemplos:
 
 
 
-\* Adicionar obra;
+* Adicionar obra;
 
-\* Salvar;
+* Salvar;
 
-\* Cadastrar.
+* Cadastrar.
 
 
 
@@ -318,15 +318,15 @@ Características:
 
 
 
-\* Fundo `#4F46E5`;
+* Fundo `#4F46E5`;
 
-\* Texto branco;
+* Texto branco;
 
-\* Maior destaque visual.
+* Maior destaque visual.
 
 
 
-\### Secundário
+### Secundário
 
 
 
@@ -338,11 +338,11 @@ Exemplos:
 
 
 
-\* Cancelar;
+* Cancelar;
 
-\* Voltar;
+* Voltar;
 
-\* Outras ações de menor prioridade.
+* Outras ações de menor prioridade.
 
 
 
@@ -350,15 +350,15 @@ Características:
 
 
 
-\* Fundo claro ou transparente;
+* Fundo claro ou transparente;
 
-\* Borda em tom neutro ou primário;
+* Borda em tom neutro ou primário;
 
-\* Menor destaque que o botão primário.
+* Menor destaque que o botão primário.
 
 
 
-\### Destrutivo
+### Destrutivo
 
 
 
@@ -370,11 +370,11 @@ Exemplos:
 
 
 
-\* Excluir obra;
+* Excluir obra;
 
-\* Remover comentário;
+* Remover comentário;
 
-\* Remover link.
+* Remover link.
 
 
 
@@ -382,13 +382,13 @@ Características:
 
 
 
-\* Vermelho `#DC2626`;
+* Vermelho `#DC2626`;
 
-\* Deve ser utilizado com confirmação quando a ação for permanente.
+* Deve ser utilizado com confirmação quando a ação for permanente.
 
 
 
-\### Ícone
+### Ícone
 
 
 
@@ -400,13 +400,13 @@ Exemplos:
 
 
 
-\* Favoritar;
+* Favoritar;
 
-\* Editar;
+* Editar;
 
-\* Excluir;
+* Excluir;
 
-\* Abrir detalhes.
+* Abrir detalhes.
 
 
 
@@ -414,7 +414,7 @@ Ações representadas apenas por ícones devem possuir identificação acessíve
 
 
 
-\### Estados dos botões
+### Estados dos botões
 
 
 
@@ -422,23 +422,23 @@ Todos os botões devem considerar:
 
 
 
-\* Default;
+* Default;
 
-\* Hover;
+* Hover;
 
-\* Active;
+* Active;
 
-\* Disabled;
+* Disabled;
 
-\* Focus.
-
-
-
-\---
+* Focus.
 
 
 
-\# 7. Campo de Busca
+---
+
+
+
+# 7. Campo de Busca
 
 
 
@@ -446,21 +446,21 @@ A pesquisa é uma funcionalidade central do Shelf Hub e terá um campo de busca 
 
 
 
-\### Estrutura
+### Estrutura
 
 
 
-\* Ícone de pesquisa;
+* Ícone de pesquisa;
 
-\* Campo de texto;
+* Campo de texto;
 
-\* Placeholder: \*\*"Pesquisar obras..."\*\*;
+* Placeholder: **"Pesquisar obras..."**;
 
-\* Opção de limpar a pesquisa quando houver conteúdo.
+* Opção de limpar a pesquisa quando houver conteúdo.
 
 
 
-\### Comportamento
+### Comportamento
 
 
 
@@ -468,31 +468,31 @@ A pesquisa deve:
 
 
 
-\* Permitir pesquisar pelo nome completo;
+* Permitir pesquisar pelo nome completo;
 
-\* Permitir pesquisar por parte do nome;
+* Permitir pesquisar por parte do nome;
 
-\* Apresentar resultados correspondentes;
+* Apresentar resultados correspondentes;
 
-\* Informar quando nenhum resultado for encontrado;
+* Informar quando nenhum resultado for encontrado;
 
-\* Poder ser utilizada em conjunto com os filtros.
-
-
-
-\### Estados
+* Poder ser utilizada em conjunto com os filtros.
 
 
 
-\* Default;
+### Estados
 
-\* Focus;
 
-\* Preenchido;
 
-\* Sem resultados;
+* Default;
 
-\* Disabled.
+* Focus;
+
+* Preenchido;
+
+* Sem resultados;
+
+* Disabled.
 
 
 
@@ -500,11 +500,11 @@ A barra de pesquisa deverá ficar em posição de destaque na biblioteca, antes 
 
 
 
-\---
+---
 
 
 
-\# 8. Card de Obra
+# 8. Card de Obra
 
 
 
@@ -516,7 +516,7 @@ As capas devem ter destaque, mantendo a interface limpa.
 
 
 
-\### Informações
+### Informações
 
 
 
@@ -524,23 +524,23 @@ O card poderá apresentar:
 
 
 
-\* Capa;
+* Capa;
 
-\* Nome;
+* Nome;
 
-\* Tipo;
+* Tipo;
 
-\* Gênero;
+* Gênero;
 
-\* Status;
+* Status;
 
-\* Nota, quando existir;
+* Nota, quando existir;
 
-\* Indicador de favorito.
+* Indicador de favorito.
 
 
 
-\### Informações que ficam fora do card
+### Informações que ficam fora do card
 
 
 
@@ -548,13 +548,13 @@ Para evitar excesso de informação, dados como:
 
 
 
-\* Comentário;
+* Comentário;
 
-\* Data;
+* Data;
 
-\* Onde foi consumida;
+* Onde foi consumida;
 
-\* Links externos;
+* Links externos;
 
 
 
@@ -562,7 +562,7 @@ serão apresentados na visualização detalhada da obra.
 
 
 
-\### Interação
+### Interação
 
 
 
@@ -578,11 +578,11 @@ As microinterações devem ser sutis e não prejudicar a navegação.
 
 
 
-\---
+---
 
 
 
-\# 9. Filtros
+# 9. Filtros
 
 
 
@@ -590,19 +590,19 @@ Os filtros permitem restringir os conteúdos apresentados na biblioteca.
 
 
 
-\### Filtros disponíveis
+### Filtros disponíveis
 
 
 
-\* Tipo;
+* Tipo;
 
-\* Gênero;
+* Gênero;
 
-\* Status;
+* Status;
 
-\* Nota;
+* Nota;
 
-\* Favoritos.
+* Favoritos.
 
 
 
@@ -610,7 +610,7 @@ O usuário poderá combinar diferentes filtros.
 
 
 
-\### Exemplo
+### Exemplo
 
 
 
@@ -626,7 +626,7 @@ O resultado deverá apresentar somente as obras que atendam aos critérios selec
 
 
 
-\### Responsividade
+### Responsividade
 
 
 
@@ -638,7 +638,7 @@ No mobile, os filtros poderão ser apresentados em um painel ou modal.
 
 
 
-\### Sem resultados
+### Sem resultados
 
 
 
@@ -646,7 +646,7 @@ Quando nenhum conteúdo corresponder aos filtros, o sistema deverá informar:
 
 
 
-> \*\*Nenhuma obra encontrada.\*\*
+> **Nenhuma obra encontrada.**
 
 
 
@@ -654,11 +654,11 @@ Também deve orientar o usuário a alterar ou remover alguns filtros.
 
 
 
-\---
+---
 
 
 
-\# 10. Ordenação
+# 10. Ordenação
 
 
 
@@ -666,21 +666,21 @@ A biblioteca deverá permitir organizar as obras por diferentes critérios.
 
 
 
-\### Opções
+### Opções
 
 
 
-\* Mais recentes;
+* Mais recentes;
 
-\* Mais antigas;
+* Mais antigas;
 
-\* Maior nota;
+* Maior nota;
 
-\* Menor nota;
+* Menor nota;
 
-\* A-Z;
+* A-Z;
 
-\* Z-A.
+* Z-A.
 
 
 
@@ -688,7 +688,7 @@ A ordenação deverá funcionar em conjunto com os filtros.
 
 
 
-\### Exemplo
+### Exemplo
 
 
 
@@ -702,11 +702,11 @@ Nesse caso, somente os filmes serão apresentados e organizados da maior para a 
 
 
 
-\---
+---
 
 
 
-\# 11. Status e Badges
+# 11. Status e Badges
 
 
 
@@ -714,21 +714,21 @@ Os status serão apresentados visualmente por meio de badges.
 
 
 
-\### Exemplos
+### Exemplos
 
 
 
-\* 🔵 \*\*Planejado\*\*
+* 🔵 **Planejado**
 
-\* 🟡 \*\*Em andamento\*\*
+* 🟡 **Em andamento**
 
-\* 🟢 \*\*Consumido\*\*
+* 🟢 **Consumido**
 
-\* 🔴 \*\*Abandonado\*\*
+* 🔴 **Abandonado**
 
 
 
-\### Características
+### Características
 
 
 
@@ -736,19 +736,19 @@ Os badges deverão:
 
 
 
-\* Possuir formato compacto;
+* Possuir formato compacto;
 
-\* Ter cantos arredondados;
+* Ter cantos arredondados;
 
-\* Utilizar uma versão visual suave da cor do status;
+* Utilizar uma versão visual suave da cor do status;
 
-\* Manter texto legível;
+* Manter texto legível;
 
-\* Apresentar sempre o nome do status.
+* Apresentar sempre o nome do status.
 
 
 
-\### Utilização
+### Utilização
 
 
 
@@ -756,13 +756,13 @@ Os badges poderão aparecer em:
 
 
 
-\* Cards;
+* Cards;
 
-\* Biblioteca;
+* Biblioteca;
 
-\* Detalhes da obra;
+* Detalhes da obra;
 
-\* Filtros.
+* Filtros.
 
 
 
@@ -770,11 +770,11 @@ A cor não será utilizada isoladamente para representar o status.
 
 
 
-\---
+---
 
 
 
-\# 12. Avaliação por Estrelas
+# 12. Avaliação por Estrelas
 
 
 
@@ -782,11 +782,11 @@ O Shelf Hub utilizará um sistema de avaliação por estrelas.
 
 
 
-\### Cores
+### Cores
 
 
 
-\*\*Estrela selecionada\*\*
+**Estrela selecionada**
 
 
 
@@ -794,7 +794,7 @@ O Shelf Hub utilizará um sistema de avaliação por estrelas.
 
 
 
-\*\*Estrela não selecionada\*\*
+**Estrela não selecionada**
 
 
 
@@ -802,27 +802,27 @@ O Shelf Hub utilizará um sistema de avaliação por estrelas.
 
 
 
-\### Regras
+### Regras
 
 
 
-\* A avaliação só estará disponível após a obra ser consumida;
+* A avaliação só estará disponível após a obra ser consumida;
 
-\* O usuário poderá alterar sua avaliação;
+* O usuário poderá alterar sua avaliação;
 
-\* Obras sem avaliação não receberão uma nota automaticamente;
+* Obras sem avaliação não receberão uma nota automaticamente;
 
-\* A nota poderá ser utilizada nos filtros e na ordenação;
+* A nota poderá ser utilizada nos filtros e na ordenação;
 
-\* A nota também será utilizada nas estatísticas do usuário.
-
-
-
-\---
+* A nota também será utilizada nas estatísticas do usuário.
 
 
 
-\# 13. Favoritos
+---
+
+
+
+# 13. Favoritos
 
 
 
@@ -830,7 +830,7 @@ O recurso de favoritos permitirá destacar obras importantes para o usuário.
 
 
 
-\### Representação
+### Representação
 
 
 
@@ -838,31 +838,31 @@ O favorito poderá ser representado por um ícone de estrela.
 
 
 
-\### Regras
+### Regras
 
 
 
-\* O usuário poderá favoritar uma obra;
+* O usuário poderá favoritar uma obra;
 
-\* O usuário poderá remover uma obra dos favoritos;
+* O usuário poderá remover uma obra dos favoritos;
 
-\* Cada usuário poderá possuir no máximo \*\*20 favoritos\*\*;
+* Cada usuário poderá possuir no máximo **20 favoritos**;
 
-\* O estado de favorito deve ser identificado no card e nos detalhes;
+* O estado de favorito deve ser identificado no card e nos detalhes;
 
-\* Favoritos poderão ser utilizados como filtro.
-
-
-
-A cor de destaque dos favoritos será o \*\*Âmbar `#F59E0B`\*\*.
+* Favoritos poderão ser utilizados como filtro.
 
 
 
-\---
+A cor de destaque dos favoritos será o **Âmbar `#F59E0B`**.
 
 
 
-\# 14. Navegação
+---
+
+
+
+# 14. Navegação
 
 
 
@@ -874,11 +874,11 @@ A interface poderá utilizar:
 
 
 
-\* Abas;
+* Abas;
 
-\* Sidebar;
+* Sidebar;
 
-\* Navegação responsiva.
+* Navegação responsiva.
 
 
 
@@ -890,25 +890,25 @@ O objetivo é facilitar o acesso principalmente às áreas de:
 
 
 
-\* Biblioteca;
+* Biblioteca;
 
-\* Pesquisa;
+* Pesquisa;
 
-\* Estatísticas;
+* Estatísticas;
 
-\* Cadastro de obra.
-
-
-
-\---
+* Cadastro de obra.
 
 
 
-\# 15. Responsividade
+---
 
 
 
-O Shelf Hub seguirá uma abordagem \*\*mobile-first\*\*.
+# 15. Responsividade
+
+
+
+O Shelf Hub seguirá uma abordagem **mobile-first**.
 
 
 
@@ -916,11 +916,11 @@ A interface deverá se adaptar a:
 
 
 
-\* Smartphones;
+* Smartphones;
 
-\* Tablets;
+* Tablets;
 
-\* Desktops.
+* Desktops.
 
 
 
@@ -932,11 +932,11 @@ Elementos como filtros, navegação e cards poderão alterar sua disposição co
 
 
 
-\---
+---
 
 
 
-\# 16. Acessibilidade
+# 16. Acessibilidade
 
 
 
@@ -944,29 +944,29 @@ A acessibilidade será considerada desde o desenvolvimento inicial.
 
 
 
-\### Diretrizes
+### Diretrizes
 
 
 
-\* Contraste mínimo recomendado de \*\*4.5:1\*\* para textos;
+* Contraste mínimo recomendado de **4.5:1** para textos;
 
-\* Cores não devem ser o único meio de transmitir informação;
+* Cores não devem ser o único meio de transmitir informação;
 
-\* Botões e elementos interativos devem possuir estados de foco;
+* Botões e elementos interativos devem possuir estados de foco;
 
-\* Ícones utilizados em ações devem possuir identificação adequada;
+* Ícones utilizados em ações devem possuir identificação adequada;
 
-\* Textos devem manter boa legibilidade;
+* Textos devem manter boa legibilidade;
 
-\* Componentes devem ser utilizáveis em diferentes tamanhos de tela.
-
-
-
-\---
+* Componentes devem ser utilizáveis em diferentes tamanhos de tela.
 
 
 
-\# 17. Princípios de UX
+---
+
+
+
+# 17. Princípios de UX
 
 
 
@@ -974,7 +974,7 @@ O Shelf Hub seguirá os seguintes princípios:
 
 
 
-\### Hierarquia visual
+### Hierarquia visual
 
 
 
@@ -986,7 +986,7 @@ As capas das obras devem ser um dos principais elementos visuais.
 
 
 
-\### Consistência
+### Consistência
 
 
 
@@ -994,177 +994,87 @@ Componentes e padrões de interação devem funcionar de maneira semelhante em d
 
 
 
-\### Simplicidade
+### Simplicidade
 
 
 
-A interface deve evitar informações ou elementos desnecessários.
+[...]
 
+---
 
+# 21. Implementação em código (Semana 02)
 
-\### Feedback
+Os tokens deste documento foram transportados para **CSS Custom Properties** no bloco `:root` de `css/styles.css`. Nenhuma cor, fonte ou espaçamento é escrito "solto" nas regras: tudo vem de `var(--...)`.
 
+## 21.1 Tokens
 
+### Cores
 
-Ações como cadastrar, editar, excluir, favoritar e alterar status devem fornecer uma indicação clara de que foram realizadas.
+| Token | Valor | Uso |
+| --- | --- | --- |
+| `--color-primary` | `#4F46E5` | Botão primário, links, foco |
+| `--color-primary-dark` | `#3730A3` | Hover, item ativo do menu |
+| `--color-accent` | `#F59E0B` | Favoritos e estrelas de nota |
+| `--color-background` | `#F8FAFC` | Fundo geral |
+| `--color-surface` | `#FFFFFF` | Cards e sidebar |
+| `--color-border` | `#E2E8F0` | Bordas e divisores |
+| `--color-text` | `#0F172A` | Texto principal |
+| `--color-text-muted` | `#64748B` | Texto secundário |
+| `--color-danger` | `#DC2626` | Botão destrutivo |
+| `--color-status-planned` | `#2563EB` | Status Planejado |
+| `--color-status-progress` | `#F59E0B` | Status Em andamento |
+| `--color-status-done` | `#16A34A` | Status Consumido |
+| `--color-status-dropped` | `#DC2626` | Status Abandonado |
 
+### Tipografia
 
+| Token | Valor |
+| --- | --- |
+| `--font-family-base` | Inter, com fallback para fontes do sistema |
+| `--font-size-sm` / `base` / `lg` / `xl` | 0.875rem / 1rem / 1.25rem / 1.5rem |
+| `--font-weight-regular` / `medium` / `bold` | 400 / 500 / 700 |
 
-\### Microinterações
+### Espaçamento, bordas e sombra
 
+| Token | Valor |
+| --- | --- |
+| `--spacing-xs` / `sm` / `md` / `lg` / `xl` / `2xl` | 0.25 / 0.5 / 1 / 1.5 / 2 / 3 rem |
+| `--radius-sm` / `md` / `lg` | 0.5 / 0.75 / 1 rem |
+| `--shadow-card` | Sombra suave dos cards |
 
+## 21.2 Componentes e classes
 
-Animações e transições devem ser sutis e utilizadas apenas quando ajudarem a comunicar uma ação ou mudança de estado.
+| Componente | Classe(s) | Onde aparece |
+| --- | --- | --- |
+| Marca (logo + nome) | `.marca` | Login, Início, Biblioteca |
+| Card | `.card` | Login, resumo, listas, filtros, obras |
+| Campo de formulário | `.campo`, `.campo__label`, `.campo__input` | Login, filtros, busca |
+| Botão | `.botao` + `--primario`, `--secundario`, `--destrutivo`, `--bloco` | Login, Início |
+| Badge de status | `.badge` + `--planejado`, `--em-andamento`, `--consumido`, `--abandonado` | Início, Biblioteca |
+| Sidebar e menu | `.sidebar`, `.menu`, `.menu__link`, `.usuario` | Início, Biblioteca |
+| Card de obra | `.obra`, `.tag`, `.estrelas`, `.favorito` | Biblioteca |
 
+## 21.3 Layout e responsividade
 
+- **Abordagem mobile-first**: o CSS base é de uma coluna; os `@media (min-width: ...)` só acrescentam.
+- **Sidebar (Flexbox)**: barra no topo até 1023px; lateral fixa de 16.25rem a partir de `1024px`.
+- **Resumo do Início (Grid)**: 2 colunas no mobile e 4 a partir de `768px`.
+- **Grid de obras da Biblioteca (CSS Grid)**: `repeat(auto-fill, minmax(16rem, 1fr))`, sem breakpoint fixo.
+- **Filtros (CSS Grid)**: `repeat(auto-fit, minmax(9.5rem, 1fr))`.
+- Larguras testadas: 375px, 768px e 1200px, sem rolagem horizontal.
 
-\### Responsividade
+## 21.4 Acessibilidade aplicada
 
+- `:focus-visible` global com contorno de 3px em `--color-primary`; o card de obra usa um contorno próprio.
+- Todo campo tem `label` ligado por `for`/`id`; a busca usa um `label` visualmente oculto (`.sr-only`).
+- Ações são `<button>`; o favorito usa `aria-pressed` e `aria-label` com o nome da obra.
+- O status é sempre escrito no badge, nunca só por cor. A nota tem texto alternativo ("Nota 5 de 5").
+- O menu usa `<nav aria-label="Principal">` e `aria-current="page"` na página atual.
+- `prefers-reduced-motion` desliga a elevação do card.
 
+## 21.5 Ajustes em relação ao design original
 
-A experiência deve permanecer funcional e organizada em diferentes tamanhos de tela.
-
-
-
-\### Acessibilidade
-
-
-
-A interface deve considerar diferentes necessidades de interação e leitura.
-
-
-
-\---
-
-
-
-\# 18. Aplicação no MVP
-
-
-
-Os componentes e padrões definidos neste documento deverão atender principalmente às funcionalidades do MVP:
-
-
-
-\* Cadastro de obras;
-
-\* Edição;
-
-\* Exclusão;
-
-\* Alteração de status;
-
-\* Biblioteca;
-
-\* Pesquisa;
-
-\* Filtros;
-
-\* Ordenação;
-
-\* Visualização de detalhes;
-
-\* Favoritos;
-
-\* Avaliação;
-
-\* Comentários;
-
-\* Links externos;
-
-\* Estatísticas.
-
-
-
-\---
-
-
-
-\# 19. Evolução do Design System
-
-
-
-Este documento representa a primeira versão do Design System do Shelf Hub.
-
-
-
-Durante a criação do protótipo no Figma e posteriormente durante o desenvolvimento do front-end, os componentes poderão ser refinados com base em testes práticos.
-
-
-
-Poderão ser definidos posteriormente:
-
-
-
-\* Tamanhos exatos dos componentes;
-
-\* Espaçamentos;
-
-\* Grid;
-
-\* Bordas e raios;
-
-\* Sombras;
-
-\* Escalas tipográficas;
-
-\* Versões detalhadas dos estados;
-
-\* Componentes adicionais;
-
-\* Tokens de design;
-
-\* Variações para diferentes dispositivos.
-
-
-
-Esses ajustes não alteram a direção visual definida neste documento.
-
-
-
-\---
-
-
-
-\# 20. Resumo da identidade
-
-
-
-\*\*Estilo:\*\* Minimalista + Moderno/Tech
-
-
-
-\*\*Fonte principal:\*\* Inter
-
-
-
-\*\*Cor primária:\*\* Indigo `#4F46E5`
-
-
-
-\*\*Cor de destaque:\*\* Âmbar `#F59E0B`
-
-
-
-\*\*Status:\*\*
-
-
-
-\* Planejado — `#2563EB`
-
-\* Em andamento — `#F59E0B`
-
-\* Consumido — `#16A34A`
-
-\* Abandonado — `#DC2626`
-
-
-
-\*\*Princípios:\*\* simplicidade, consistência, hierarquia visual, feedback, responsividade e acessibilidade.
-
-
-
-O Design System será utilizado como referência para a criação do protótipo no Figma e para a futura implementação do front-end.
-
-
-
+- O texto do badge **Em andamento** usa um âmbar escuro (`#92400E`) sobre fundo claro, para manter o contraste e não se confundir com o âmbar dos favoritos.
+- O favorito usa o ícone de coração do Figma, em âmbar, para não se confundir com as estrelas de nota.
+- As capas das obras são placeholders (inicial da obra), porque ainda não há imagens.
+- Filtros, busca e favoritos são apenas visuais nesta etapa; o comportamento fica para as próximas semanas.
