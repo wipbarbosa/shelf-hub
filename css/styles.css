@@ -1,0 +1,292 @@
+/* ==========================================================
+   Shelf Hub — styles.css
+   Semana 02 · Base do projeto (tokens, reset e componentes)
+   Fonte dos valores: docs/design-system.md
+   ========================================================== */
+
+/* ---------- 1. Design tokens ---------- */
+:root {
+  /* Cores principais */
+  --color-primary: #4f46e5;
+  --color-primary-dark: #3730a3;
+  --color-accent: #f59e0b;
+
+  /* Neutras */
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+
+  /* Status */
+  --color-status-planned: #2563eb;
+  --color-status-progress: #f59e0b;
+  --color-status-done: #16a34a;
+  --color-status-dropped: #dc2626;
+
+  /* Destrutivo */
+  --color-danger: #dc2626;
+
+  /* Tipografia */
+  --font-family-base: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Espaçamento (escala de 4px) */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  /* Bordas e sombras */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --shadow-card: 0 1px 3px rgb(15 23 42 / 0.08), 0 8px 24px rgb(15 23 42 / 0.06);
+}
+
+/* ---------- 2. Reset e base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* Foco visível em tudo que é interativo (nunca outline: none sem substituto) */
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* ---------- 3. Componentes reutilizáveis ---------- */
+
+/* Marca (logo + nome) */
+.marca {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.marca__icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-md);
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.marca__nome {
+  display: block;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+}
+
+.marca__slogan {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* Card */
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-lg);
+}
+
+/* Campo de formulário (label + input) */
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.campo__label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.campo__input {
+  width: 100%;
+  padding: 0.75rem var(--spacing-md);
+  font: inherit;
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.campo__input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.campo__input:hover {
+  border-color: var(--color-text-muted);
+}
+
+.campo__input:focus-visible {
+  border-color: var(--color-primary);
+  outline: 3px solid rgb(79 70 229 / 0.35);
+  outline-offset: 0;
+}
+
+.campo__input:disabled {
+  background-color: var(--color-background);
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}
+
+/* Botões */
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: 0.75rem var(--spacing-lg);
+  font: inherit;
+  font-weight: var(--font-weight-medium);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.botao:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.botao--primario {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.botao--primario:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.botao--primario:active {
+  background-color: var(--color-primary-dark);
+  transform: translateY(1px);
+}
+
+.botao--secundario {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.botao--secundario:hover {
+  background-color: rgb(79 70 229 / 0.08);
+}
+
+.botao--destrutivo {
+  background-color: var(--color-danger);
+  color: #ffffff;
+}
+
+.botao--destrutivo:hover {
+  background-color: #b91c1c;
+}
+
+.botao--bloco {
+  width: 100%;
+}
+
+/* ---------- 4. Página de login ---------- */
+.pagina-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: var(--spacing-md);
+}
+
+.login {
+  width: 100%;
+  max-width: 26rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.login__cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.login__titulo {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.login__texto {
+  color: var(--color-text-muted);
+}
+
+.login__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.login__rodape {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* ---------- 5. Responsividade (mobile-first) ---------- */
+@media (min-width: 768px) {
+  .card {
+    padding: var(--spacing-xl);
+  }
+
+  .login__titulo {
+    font-size: 1.75rem;
+  }
+}
