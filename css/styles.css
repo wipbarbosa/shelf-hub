@@ -1,7 +1,5 @@
 /* ==========================================================
    Shelf Hub — styles.css
-   Semana 02 · Base do projeto (tokens, reset e componentes)
-   Fonte dos valores: docs/design-system.md
    ========================================================== */
 
 /* ---------- 1. Design tokens ---------- */
@@ -288,5 +286,230 @@ a:hover {
 
   .login__titulo {
     font-size: 1.75rem;
+  }
+}
+
+/* ---------- 6. Botão como link ---------- */
+.botao {
+  text-decoration: none;
+}
+
+.botao--primario,
+.botao--primario:hover {
+  color: #ffffff;
+}
+
+/* ---------- 7. Badge de status (sempre com o nome do status) ---------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.125rem 0.625rem;
+  font-size: 0.8125rem;
+  font-weight: var(--font-weight-medium);
+  border-radius: 999px;
+}
+
+.badge::before {
+  content: "";
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+.badge--planejado { background-color: #dbeafe; color: #1e40af; }
+.badge--em-andamento { background-color: #fef3c7; color: #92400e; }
+.badge--consumido { background-color: #dcfce7; color: #166534; }
+.badge--abandonado { background-color: #fee2e2; color: #991b1b; }
+
+/* ---------- 8. Layout do app (sidebar + conteúdo) ---------- */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  display: block;
+  padding: 0.625rem var(--spacing-md);
+  color: var(--color-text);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+}
+
+.menu__link:hover {
+  background-color: rgb(79 70 229 / 0.08);
+  color: var(--color-primary-dark);
+}
+
+.menu__link[aria-current="page"] {
+  background-color: rgb(79 70 229 / 0.12);
+  color: var(--color-primary-dark);
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.usuario__avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--color-border);
+}
+
+.usuario__nome {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.usuario__conta {
+  display: block;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  width: 100%;
+  max-width: 70rem;
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.conteudo__cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+}
+
+.titulo-pagina {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+/* ---------- 9. Tela de Início ---------- */
+.resumo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resumo__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.resumo__rotulo {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.resumo__valor {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+}
+
+.secao {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.secao__titulo {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.lista-obras {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.obra-linha {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm) var(--spacing-md);
+}
+
+.obra-linha__nome {
+  display: block;
+  font-weight: var(--font-weight-medium);
+}
+
+.obra-linha__meta {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* ---------- 10. Responsividade do app ---------- */
+@media (min-width: 768px) {
+  .resumo {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    flex: 0 0 16.25rem;
+    height: 100vh;
+    justify-content: space-between;
+    padding: var(--spacing-xl) var(--spacing-md);
+    border-bottom: 0;
+    border-right: 1px solid var(--color-border);
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .conteudo {
+    padding: var(--spacing-2xl) 2.5rem;
   }
 }
